@@ -48,6 +48,8 @@
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin: 0;
+    padding: 0;
 }
 
 /* Nav styles */
@@ -90,14 +92,23 @@ nav li a {
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    margin-left: 5px;
+    /* border: 2px solid red; */
 }
+/* .banner-description
+{
+ margin-bottom: 50px;
+} */
 
 .banner-title{
     font-weight: bold;
-    font-size: 85px;
+    font-size: 80px;
+    /* border: 2px solid red; */
+    /* margin-right: 5px; */
 }
 .banner-profile-pic{
-    width: 580px;
+    height: 760px;
+    width: 650px;
 }
 
 /* main styles */
@@ -169,8 +180,8 @@ footer{
     width: 50%;
 }
 
-footer input[type="text"],  footer input[type="email"], footer textarea{
-    height: 64px;
+footer input[type="text"],  footer input[type="email"]{
+    height: 20px;
     border-radius: 5px;
     background-color: white;
     display: block;
@@ -178,4 +189,39 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+    border: 2px solid #757575;;
+    
+}
+footer textarea {
+    height: 120px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.second-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000000;
+    /* background-size: 300px 100px; */
+    /* max-height: min-content; */
+    margin: 0 auto;
+} 
+ 
+.copyright
+{
+    border: 2px solid rgb(161, 156, 156);
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* display: inline; */
+    text-align: center;
+    color: aliceblue;
+    /* background-color: antiquewhite; */
+    
 }
